@@ -280,6 +280,11 @@ function fontsStyle(done) {
 }
 */
 
+gulp.task('deploy', function() {
+	return gulp.src('./build/**/*')
+	.pipe(ghPages());
+});
+
 function infofile() {
 
 }
