@@ -307,9 +307,10 @@
 	@include adaptiv-value("gap", 32, 15, 1);
 	// .actions-header__item
 	&__item {
+		color: black;
 		// .actions-header__item_favorites
 		&_favorites {
-			color: #262f56;
+			color: black;
 			font-size: 24px;
 			transition: color 0.3s ease 0s;
 			@media (any-hover: hover) {
@@ -442,6 +443,7 @@
 }
 .icon-menu {
 	display: none;
+
 	@media (max-width: $md3+px) {
 		@include adaptiv-value("margin-left", 32, 15, 1);
 		position: relative;
