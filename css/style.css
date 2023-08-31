@@ -2258,7 +2258,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .menu__sub-item:not(:last-child) {
-  margin: 0px 0px 5px 0px;
+  margin: 0px 0px 15px 0px;
 }
 
 .menu__sub-link {
