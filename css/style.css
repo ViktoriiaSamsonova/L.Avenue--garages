@@ -2525,6 +2525,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
           align-items: center;
   line-height: 150%;
   color: #898989;
+  margin: 8px
   -webkit-transition: color 0.3s ease 0s;
   transition: color 0.3s ease 0s;
 }
