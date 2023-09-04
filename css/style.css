@@ -2154,7 +2154,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .header {
   width: 100%;
-  min-height: 40px;
   margin-bottom: 60px;
 }
 
@@ -4338,6 +4337,10 @@ min-height: 500px;
 .hero__img {
   max-width: 500px;
   filter: drop-shadow(0 0 50px grey);
+}
+
+.hero__picture {
+  margin: 0 auto;
 }
 
 @media(max-width: 1060px) {
