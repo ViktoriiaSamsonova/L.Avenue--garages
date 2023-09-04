@@ -2855,12 +2855,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
           justify-content: space-between;
 }
 
-@media(max-width:820px) {
+/* @media(max-width:820px) {
  .advantages__container {
   flex-direction: column;
   align-content: center;
  }
-}
+} */
 
 .advantages__item {
   display: -ms-inline-grid;
@@ -4317,12 +4317,13 @@ min-height: 500px;
     font-weight: 700;
     letter-spacing: .004em;
     font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    color: #ff5a00;
 }
 
 
 .hero__text {
-  color: #86868b;
+  color: #1d1d1f;
   font-size: 21px;
   line-height: 1.381002381;
   font-weight: 600;
@@ -4332,10 +4333,6 @@ min-height: 500px;
 
 .hero__description {
   width: 130%;
-}
-
-.hero__picture {
-  
 }
 
 .hero__img {
