@@ -2855,6 +2855,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
           justify-content: space-between;
 }
 
+@media(max-width:820px) {
+ .advantages__container {
+  flex-direction: column;
+  align-content: center;
+ }
+}
+
 .advantages__item {
   display: -ms-inline-grid;
   display: inline-grid;
