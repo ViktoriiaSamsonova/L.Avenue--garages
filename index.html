@@ -5,10 +5,15 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <link rel="stylesheet" href="css/style.min.css"> -->
+
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&family=Ruda:wght@400;700;900&family=Shantell+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="fonts/icons.woff">
 	<link rel="stylesheet" href="fonts/icons.woff2">
+	<link href="https://fonts.cdnfonts.com/css/gagalin" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 	<body>
@@ -18,7 +23,7 @@
 		<div class="header__container _container">
 			<div class="header__body">
 				<div class="header__main">
-					<a href="" class="header__logo">L.Avenue</a>
+					<a href="" class="header__logo"><img class="logo__img" src="img/icons/logo.svg"></a>
 					<div class="header__menu menu">
 						<nav class="menu__body">
 							<ul data-spollers="768,max" class="menu__list">
@@ -71,7 +76,9 @@
 				<div class="header__actions actions-header">
 					<a href="index_en.html" class="actions-header__item ">EN</a>
 					<div class="actions-header__item cart-header">
-						<a href="" class="cart-header__icon _icon-cart"></a>
+						<a href="" class="cart-header__icon _icon-cart">
+					
+						</a>
 						<div class="cart-header__body">
 							<ul class="cart-header__list cart-list"></ul>
 						</div>
@@ -91,14 +98,15 @@
 			<main class="page">
 				<section class="hero__section">
 					<div class="hero__container _container">
+					
 					<div class="hero__description">
 						<h3 class="hero__title">Шукаєте ідеальний органайзер для іграшкових машинок?</h3>
-						<div class="hero__text"><p>Ознайомтеся з нашим асортиментом і знайдіть свій ідеальний гараж.</p>
-							<p>Наша майстерня створює гаражі-парковки для іграшкових машинок. Це ідеальна річ для гри та зберігання машин.</p> <p>Ручна робота та унікальний дизайн для вашої дитини.</p>
+						<div class="hero__text"><p>Ознайомтеся з нашим асортиментом і знайдіть свій ідеальний гараж.
+						 Наша майстерня створює гаражі-парковки для іграшкових машинок. Це ідеальна річ для гри та зберігання машин. Ручна робота та унікальний дизайн для вашої дитини.</p>
 						</div>
 					</div>
 					<div class="hero__picture">
-						<img class="hero__img" src="img/main-slider/01.webp" alt="фото гаражу та дітей">
+						<img class="hero__img" src="img/main-slider/short01.png" alt="фото гаражу та дітей">
 					</div>
 				</div>
 				</section>
@@ -107,28 +115,32 @@
 					<div class="advantages__container _container">
 						<div class="advantages__item">
 							<div class="advantages__icon">
-								<picture><source srcset="img/advantages/01.svg" type="image/webp"><img src="img/advantages/01.svg" alt="High Quality"></picture>
+								<picture><source srcset="img/advantages/01.svg" type="image/webp">
+								<img class="advantages__img" src="img/advantages/01.svg" alt="High Quality"></picture>
 							</div>
 							<h3 class="advantages__title">Висока якість</h3>
 							<div class="advantages__text">натуральна деревина берези</div>
 						</div>
 						<div class="advantages__item">
 							<div class="advantages__icon">
-								<picture><source srcset="img/advantages/02.svg" type="image/webp"><img src="img/advantages/02.svg" alt="Warrany Protection"></picture>
+								<picture><source srcset="img/advantages/02.svg" type="image/webp">
+								<img class="advantages__img" src="img/advantages/02.svg" alt="Warrany Protection"></picture>
 							</div>
 							<h3 class="advantages__title">Безпечність</h3>
 							<div class="advantages__text">тількі екологічні матеріали</div>
 						</div>
 						<div class="advantages__item">
 							<div class="advantages__icon">
-								<picture><source srcset="img/advantages/03.svg" type="image/webp"><img src="img/advantages/03.svg" alt="Free Shipping"></picture>
+								<picture><source srcset="img/advantages/03.svg" type="image/webp">
+								<img class="advantages__img" src="img/advantages/03.svg" alt="Free Shipping"></picture>
 							</div>
 							<h3 class="advantages__title">Доставка по світу</h3>
 							<div class="advantages__text">зручно та надійно</div>
 						</div>
 						<div class="advantages__item">
 							<div class="advantages__icon">
-								<picture><source srcset="img/advantages/04.svg" type="image/webp"><img src="img/advantages/04.svg" alt="24 / 7 Support"></picture>
+								<picture><source srcset="img/advantages/04.svg" type="image/webp">
+									<img class="advantages__img" src="img/advantages/04.svg" alt="24 / 7 Support"></picture>
 							</div>
 							<h3 class="advantages__title">Зручна оплата</h3>
 							<div class="advantages__text">оплата картою</div>
@@ -145,7 +157,8 @@
 									<!-- <div class="item-product__label item-product__label_new">New</div> -->
 								</div>
 								<a href="#" class="item-product__image _ibg">
-									<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.jpg" alt="Syltherine"></picture>
+									<picture><source srcset="img/products/01.webp" type="image/webp">
+										<img src="img/products/01.jpg" alt="Syltherine"></picture>
 								</a>
 								<div class="item-product__body">
 									<div class="item-product__content">
@@ -333,7 +346,125 @@
 						</div> -->
 					</div>
 				</section>
+                  
+				<section class="section__qanda">
+                    
+					<h2 class="qanda__title _title">Часті питання</h2>
+					<div class="qa__wrapper">
+						
+						<p>Які розміри фанерних гаражів, які ви пропонуєте? </p>
+						<svg style="transition: 0.3s" id="btn" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#FF5a00;" cx="256" cy="256" r="256"></circle> 
+							<path style="fill:#FF5a00;;" d="M371.262,484.631c68.696-34.701,119.632-99.437,135.52-176.959l-94.544-94.544L281.714,328.545 L256,369.371L371.262,484.631z"></path> <polygon style="fill:#2B3B4E;" points="256,369.371 99.762,213.128 127.798,185.092 256,313.296 384.202,185.092 412.238,213.13 "></polygon> <polygon style="fill:#2B3B4E;" points="256,313.296 384.202,185.092 412.238,213.13 256,369.371 "></polygon> </g>
+						</svg>
+			
+						<span class="span" style="max-height: 0">Є два види гаражів, маленький - габаритні розміри якого 36*32 см, великий - габаритні розміри 67*35 см</span>
+					</div>
+			
+					<div class="qa__wrapper">
+						<p>Чи легко збираються та розбираються гаражі?</p>
+						<svg style="transition: 0.3s" id="btn" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#FF5a00;" cx="256" cy="256" r="256"></circle> 
+							<path style="fill:#FF5a00;" d="M371.262,484.631c68.696-34.701,119.632-99.437,135.52-176.959l-94.544-94.544L281.714,328.545 L256,369.371L371.262,484.631z"></path> <polygon style="fill:#2B3B4E;" points="256,369.371 99.762,213.128 127.798,185.092 256,313.296 384.202,185.092 412.238,213.13 "></polygon> <polygon style="fill:#2B3B4E;" points="256,313.296 384.202,185.092 412.238,213.13 256,369.371 "></polygon> </g>
+						</svg>
+						<span class="span" style="max-height: 0">До кожного гаражу йде друкована інструкція, а також докладна відео інструкція, тому так - зібрати та розібрати гараж легко. Також одним із пріоритетів є те, що гараж збирається без склеювання, саме тому і можливо взагалі розібрати його.
+						</span>
+					</div>
+			
+					<div class="qa__wrapper">
+						<p>Чи підходять гаражі для використання на вулиці, чи вони призначені лише для гри в приміщенні?</p>
+						<svg style="transition: 0.3s" id="btn" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#FF5a00;" cx="256" cy="256" r="256"></circle> 
+							<path style="fill:#FF5a00;" d="M371.262,484.631c68.696-34.701,119.632-99.437,135.52-176.959l-94.544-94.544L281.714,328.545 L256,369.371L371.262,484.631z"></path> <polygon style="fill:#2B3B4E;" points="256,369.371 99.762,213.128 127.798,185.092 256,313.296 384.202,185.092 412.238,213.13 "></polygon> <polygon style="fill:#2B3B4E;" points="256,313.296 384.202,185.092 412.238,213.13 256,369.371 "></polygon> </g>
+						</svg>
+						<span class="span" style="max-height: 0">Ми використовуємо водоемульсійні гіпоалергенні фарби. Іншими словами - наші гаражі не мають запаху краски та вони абсолютно безпечні для дітей.
 
+						</span>
+					</div>
+					<div class="qa__wrapper">
+						<p>Який тип фарби або покриття використовується на пофарбованих гаражах, і чи є він безпечним для дітей?</p>
+						<svg style="transition: 0.3s" id="btn" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#FF5a00;" cx="256" cy="256" r="256"></circle> 
+							<path style="fill:#FF5a00;" d="M371.262,484.631c68.696-34.701,119.632-99.437,135.52-176.959l-94.544-94.544L281.714,328.545 L256,369.371L371.262,484.631z"></path> <polygon style="fill:#2B3B4E;" points="256,369.371 99.762,213.128 127.798,185.092 256,313.296 384.202,185.092 412.238,213.13 "></polygon> <polygon style="fill:#2B3B4E;" points="256,313.296 384.202,185.092 412.238,213.13 256,369.371 "></polygon> </g>
+						</svg>
+						<span class="span" style="max-height: 0">Можна використовувати на вулиці але тільки у суху погоду. Також умовами зберігання та використання передбачено періодичне вологе прибирання.
+						</span>
+					</div>
+					<div class="qa__wrapper">
+						<p>Чи можуть гаражі вмістити різні розміри та типи дитячих автомобілів?</p>
+						<svg style="transition: 0.3s" id="btn" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#FF5a00;" cx="256" cy="256" r="256"></circle> 
+							<path style="fill:#FF5a00;;" d="M371.262,484.631c68.696-34.701,119.632-99.437,135.52-176.959l-94.544-94.544L281.714,328.545 L256,369.371L371.262,484.631z"></path> <polygon style="fill:#2B3B4E;" points="256,369.371 99.762,213.128 127.798,185.092 256,313.296 384.202,185.092 412.238,213.13 "></polygon> <polygon style="fill:#2B3B4E;" points="256,313.296 384.202,185.092 412.238,213.13 256,369.371 "></polygon> </g>
+						</svg>
+						<span class="span" style="max-height: 0">Так, найбільшу увагу та найбільше місця ми виділили на машинки типу Хот Вілс, але також можна розмістити моделі розміром 1:22 1:24  1:26, а також гелікоптер.
+						</span>
+					</div>
+			
+					<div class="qa__wrapper">
+						<p>Чи пропонуєте ви інші варіанти кастомізації, окрім персоналізованих верхівок, наприклад, різні кольори чи дизайн?</p>
+						<svg style="transition: 0.3s" id="btn" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#FF5a00;" cx="256" cy="256" r="256"></circle> 
+							<path style="fill:#FF5a00;" d="M371.262,484.631c68.696-34.701,119.632-99.437,135.52-176.959l-94.544-94.544L281.714,328.545 L256,369.371L371.262,484.631z"></path> <polygon style="fill:#2B3B4E;" points="256,369.371 99.762,213.128 127.798,185.092 256,313.296 384.202,185.092 412.238,213.13 "></polygon> <polygon style="fill:#2B3B4E;" points="256,313.296 384.202,185.092 412.238,213.13 256,369.371 "></polygon> </g>
+						</svg>
+						<span class="span" style="max-height: 0">Кастомізація можлива для верхівок, а також ми пропонуємо різноманітний кольоровий ряд гаражі. Але, якщо вам не підходить жодний з кольорів - ви можете написати ваші побажання та ми пофарбуємо гараж в необхідний колір.
+						</span>
+					</div>
+		
+					<div class="qa__wrapper">
+						<p>Наскільки міцні фанерні гаражі і чи можуть вони витримати грубі дитячі ігри?</p>
+						<svg style="transition: 0.3s" id="btn" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#FF5a00;" cx="256" cy="256" r="256"></circle> 
+							<path style="fill:#FF5a00;;" d="M371.262,484.631c68.696-34.701,119.632-99.437,135.52-176.959l-94.544-94.544L281.714,328.545 L256,369.371L371.262,484.631z"></path> <polygon style="fill:#2B3B4E;" points="256,369.371 99.762,213.128 127.798,185.092 256,313.296 384.202,185.092 412.238,213.13 "></polygon> <polygon style="fill:#2B3B4E;" points="256,313.296 384.202,185.092 412.238,213.13 256,369.371 "></polygon> </g>
+						</svg>
+						<span class="span" style="max-height: 0">Ми використовуємо товщину 4 та 5 мм для виготовлення. Зовні, можливо, наші гаражі виглядають НЕ досить міцними. Але, перед продажем продукту було декілька важливих нюансів які ми переслідували - іграшка повинна бути легкою, безпечною та міцною. Про міцність - якщо дитина буде кидати гараж - так, буде тріщина на матеріалі, в усіх інших випадках, під час гри машинками або фігурками гараж не ламається. У нас на сторінці інстаграм є декілька відео із тематики “тестування на міцність”.</span>
+					</div>
+			
+					<div class="qa__wrapper">
+						<p>Гаражі поставляються повністю зібраними чи у вигляді набору, і як відбувається процес доставки? </p>
+						<svg style="transition: 0.3s" id="btn" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#FF5a00;" cx="256" cy="256" r="256"></circle> 
+							<path style="fill:#FF5a00;" d="M371.262,484.631c68.696-34.701,119.632-99.437,135.52-176.959l-94.544-94.544L281.714,328.545 L256,369.371L371.262,484.631z"></path> <polygon style="fill:#2B3B4E;" points="256,369.371 99.762,213.128 127.798,185.092 256,313.296 384.202,185.092 412.238,213.13 "></polygon> <polygon style="fill:#2B3B4E;" points="256,313.296 384.202,185.092 412.238,213.13 256,369.371 "></polygon> </g>
+						</svg>
+						<span class="span" style="max-height: 0">У вигляді набору з докладними інструкціями. Гараж доставляється у великій гарній коробці. Процес доставки - ми використовуємо поштові служби, якщо ви знаходитеся у місці де розташоване наше виробництво ви можете забрати гараж самостійно.
+
+						</span>
+					</div>
+			
+					<div class="qa__wrapper">
+						<p>Чи існують якісь особливі інструкції з обслуговування або догляду за фанерними гаражами?</p>
+						<svg style="transition: 0.3s" id="btn" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#FF5a00;" cx="256" cy="256" r="256"></circle> 
+							<path style="fill:#FF5a00;" d="M371.262,484.631c68.696-34.701,119.632-99.437,135.52-176.959l-94.544-94.544L281.714,328.545 L256,369.371L371.262,484.631z"></path> <polygon style="fill:#2B3B4E;" points="256,369.371 99.762,213.128 127.798,185.092 256,313.296 384.202,185.092 412.238,213.13 "></polygon> <polygon style="fill:#2B3B4E;" points="256,313.296 384.202,185.092 412.238,213.13 256,369.371 "></polygon> </g>
+						</svg>
+						<span class="span" style="max-height: 0">Ні. стандартні рекомендвції - не кидати, не залишати на вулиці під дощем, не мочити водою, допустиме протирання вологою ганчіркою.
+
+						</span>
+					</div>
+
+					<div class="qa__wrapper">
+						<p>Яка ваша політика повернення або обміну, якщо клієнт не задоволений товаром?</p>
+						<svg style="transition: 0.3s" id="btn" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#FF5a00;" cx="256" cy="256" r="256"></circle> 
+							<path style="fill:#FF5a00;" d="M371.262,484.631c68.696-34.701,119.632-99.437,135.52-176.959l-94.544-94.544L281.714,328.545 L256,369.371L371.262,484.631z"></path> <polygon style="fill:#2B3B4E;" points="256,369.371 99.762,213.128 127.798,185.092 256,313.296 384.202,185.092 412.238,213.13 "></polygon> <polygon style="fill:#2B3B4E;" points="256,313.296 384.202,185.092 412.238,213.13 256,369.371 "></polygon> </g>
+						</svg>
+						<span class="span" style="max-height: 0">Оскільки наш товар кастомізований, тобто ми виготовляємо його на замовлення, повернення товару не можливе. Обмін передбачений лише у випадках несправності/зламаних деталей після транспортування перевізниками (для того, щоб скористатися цим пунктом обов’язково зніміть фото чи відео розпаковки. Якщо ще на пошті ви бачите пошкоджену коробку - зверніть на це увагу працівників пошти. Ми завжди відправляємо цілі, неушкоджені коробки та деталі). Якщо у вас виникнуть будь які питання в ході збірки гаражу - обов’язково пишіть нам у підтримку.
+						</span>
+					</div>
+				</section>
+			
+				<script>
+					let qa__wrapper = document.querySelectorAll('.qa__wrapper')
+					qa__wrapper.forEach(el => {
+						el.addEventListener('click', () => {
+						let span = el.childNodes[5]
+						let btn = el.childNodes[3]
+						let qa__wrapper = el
+			
+						console.log(span)
+						if(span.style.maxHeight === `0px`){
+						span.style.maxHeight = span.scrollHeight +'px'
+						qa__wrapper.style.background = '#fff'
+						btn.style.transform = 'rotate(180deg)'
+					}else{
+						span.style.maxHeight = 0
+						qa__wrapper.style.background = '#fbfbfd'
+						btn.style.transform = 'rotate(0deg)'
+					}
+						})
+					})
+			
+				</script>
+			
 				
 				<section class="page__tips tips">
 					<div class="tips__container _container">
@@ -376,6 +507,7 @@
 						</div>
 					</div>
 				</section>
+
 				<section class="page__furniture furniture">
 					<div class="furniture__container">
 						<div class="furniture__label">розвиток через гру</div>
@@ -420,12 +552,16 @@
 	<div class="footer__container _container">
 		<div class="footer__body">
 			<div class="footer__main">
-				<a href="" class="footer__logo _footer-title">L.Avenue</a>
+				<a href="" class="header__logo"><img class="logo__img" src="img/icons/logo.svg"></a>
 				<!-- <div class="footer__text">Worldwide furniture store since 2020. We sell over 1000+ branded products on our website</div> -->
 				<div class="footer__contacts contacts-footer">
 					<a href="" class="contacts-footer__item _icon-location">Україна, м. Дніпро</a>
 					<a href="tel:+380660189130" class="contacts-footer__item _icon-phone">+380660189130</a>
-					<a href="https://www.instagram.com/l.avenue/" target="_blank" class="contacts-footer__item"><img width="30" height="30" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1"/></a>
+					<div class="social__media">
+					<a href="https://www.instagram.com/l.avenue/" target="_blank" class="contacts-footer__item"><img img width="20" height="20" src="img/icons/insta.svg"></a>
+					<a href="" target="_blank"class="contacts-footer__item"><img img width="20" height="20" src="img/icons/facebook.svg"></a>
+					<a href="" target="_blank"class="contacts-footer__item"><img img width="20" height="20" src="img/icons/pinterest.svg"></a>
+				</div>
 				</div>
 			</div>
 			<!-- <div data-spollers="768,max" class="footer__menu menu-footer">
@@ -466,8 +602,7 @@
 			</div>
 		</div> -->
 	</div>
-
-
+	
 </footer>
 		</div>
 		<div class="popup popup_popup">
@@ -516,5 +651,6 @@
 <script src="package.json"></script>
 <script src="package-lock.json"></script>
 <script src="json/products.json"></script>
+
 	</body>
 </html>
