@@ -2154,9 +2154,22 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin-bottom: 60px;
 }
 
+@media (max-width: 480px) {
+  .header {
+    margin-bottom: 45px;
+  }
+}
+
 .logo__img {
   width: 130px;
   height: 60px;
+}
+
+@media (max-width: 480px) {
+  .logo__img {
+    width: 100px;
+    height: 40px;
+}
 }
 
 .header._scroll .header__wrapper {
