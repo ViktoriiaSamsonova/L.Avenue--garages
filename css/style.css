@@ -4495,7 +4495,10 @@ align-items: center;
   color: #1d1d1f;
   font-size: 21px;
   hyphens: auto;
-  hyphenate-character: '-';
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+
+  
   line-height: 1.381002381;
   font-weight: 400;
   letter-spacing: .011em;
