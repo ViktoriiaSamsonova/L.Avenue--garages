@@ -4474,7 +4474,6 @@ align-items: center;
 .hero__img {
   width: 100%;
   height: 100%;
-  border-radius: 8px;
 
 }
 
@@ -4510,7 +4509,7 @@ align-items: center;
   padding-right: 10px;
 }
 .hero__section {
-  /* background: linear-gradient(#F7F8F9, #DCEAE6, #CEE7EA, #B5DAF0, #F7F8F9) ; */
+  background: linear-gradient(#F7F8F9, #DCEAE6, #CEE7EA, #B5DAF0, #F7F8F9) ;
    background-color: #fbfbfd;
 }
 
